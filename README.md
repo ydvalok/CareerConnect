@@ -64,6 +64,3 @@ This project was built to practice React.js, responsive web design, component-ba
 
 Alok Yadav
 
----
-
-⭐ If you find this project useful, consider giving the repository a star!
