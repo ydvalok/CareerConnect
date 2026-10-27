@@ -1,0 +1,112 @@
+
+/* General */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background-color: white;
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(135deg, #eff6ff, #f8fafc);
+  padding: 60px 0;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+/* Search Box */
+.search-box {
+  max-width: 680px;
+  border: 1px solid #e1e8f2;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px #00000010;
+}
+
+.search-box .form-control {
+  min-width: 0;
+}
+
+/* Hero Card */
+.hero-illustration {
+  padding: 30px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px #00000010;
+}
+
+/* Job Cards */
+.job-card {
+  height: 100%;
+  border-radius: 16px;
+  transition: 0.2s;
+}
+
+.job-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px #00000015;
+}
+
+/* Company Logo */
+.company-avatar {
+  width: 50px;
+  height: 50px;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #eaf2ff;
+  color: #0d6efd;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+  .hero-section {
+    padding: 40px 0;
+  }
+
+  .hero-section h1 {
+    font-size: 2.5rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .hero-section {
+    padding: 30px 0;
+  }
+
+  .hero-section h1 {
+    font-size: 28px;
+  }
+
+  .search-box {
+    flex-direction: column;
+  }
+
+  .search-box .form-control,
+  .search-box .btn {
+    width: 100%;
+  }
+
+  .hero-illustration {
+    padding: 20px;
+  }
+
+  .company-avatar {
+    width: 42px;
+    height: 42px;
+  }
+}
